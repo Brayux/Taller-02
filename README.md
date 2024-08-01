@@ -6,6 +6,7 @@
 | Daniel Santiago Barrera Rojas| 1031647812     |   ProGreening   | Ingeniería Agrícola |
 | Pablo Mendoza Malagón        | 1072645448     |                 |                     |
 
+[![Imagen-de-Whats-App-2024-04-18-a-las-13-37-14-41369a78.jpg](https://i.postimg.cc/MKtYzt5J/Imagen-de-Whats-App-2024-04-18-a-las-13-37-14-41369a78.jpg)](https://postimg.cc/CzB8NG9c)
 <table cellspacing="1" bgcolor="" align="center">
   <tr bgcolor="#252582">
     <th><b>- ProGreening - </b></th>
@@ -15,7 +16,6 @@
     
 1. Desarrollar un programa que ingrese un número entero n y separe todos los digitos que componen el número. Pista: Utilice los operadores módulo (%) y división entera (//).
 ````python
-    
 #Separar todos los digitos que componen un número.
 #Creamos variable
 digitosNumero=[]
@@ -31,7 +31,6 @@ def digitos(x):
 if __name__=="__main__":
  usuario = int(input("Ingrese su número favorito :) = "))
  digitos(usuario)
- 
 ````
 2. Desarrollar un programa que ingrese un número flotante n y separe su parte entera de la parte decimal, y luego entregue los dígitos tanto de la parte entera como de la decimal.
 
@@ -47,7 +46,6 @@ if __name__=="__main__":
 
 8. Desarrollar un programa que dadas dos listas determine que elementos tiene la primer lista que no tenga la segunda lista.
 ````python
-
 '''que elementos tiene la primer lista que no tenga la segunda lista.'''
 #Crear 2 variables, cada una con una lista independiente
 lista1=[1,2,3,4,5,6,7,8,9,0,"hola mundo","python","Real madrid","felipe Roldan"]
@@ -55,7 +53,6 @@ lista2=["Barcelona","Felipe roldan",8,9,7,3,1,4,6,"hola Mundo", "python"]
 #Para saber que datos no se repiten en la lista 1 se resta el contenido de la lista 2 al cont de la lista 1
 salida=set(lista1)-set(lista2)
 print("Los elementos que no se repiten en la primera lista son:\n ",salida)
-
 ````
 9. Resolver el punto 7 del taller 1 usando operaciones con vectores.
 
