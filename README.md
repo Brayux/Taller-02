@@ -239,7 +239,25 @@ if __name__=="__main__":
         print("No hay valores repetidos")
 ````
 7. Desarrollar un programa que determine si en una lista se encuentra una cadena de caracteres con dos o más vocales. Si la cadena existe debe imprimirla y si no existe debe imprimir 'No existe'.
-
+````python
+#se llama la funcion del punto 6
+from Punto_6 import listarepeticion
+if __name__ == "__main__":
+#Se crean 2 listas
+    o:list=[]
+    q:list=["a","e","i","o","u","A","E","I","O","U"]
+    listarepeticion(o,False)
+#se crea un for con las listas
+    for i in o:
+        l:int=0
+        for j in i:
+            if j in q:
+                l=l+1
+#Mostrar el resultado en pantalla
+        if l==1: print("La palabra "+i+" tiene "+str(l)+" vocales")
+        elif l>1: print("La palabra "+i+" tiene "+str(l)+" vocales")
+        else: print("La palabra "+i+" no es una cadena o no tiene vocales")
+````
 8. Desarrollar un programa que dadas dos listas determine que elementos tiene la primer lista que no tenga la segunda lista.
 ````python
 '''que elementos tiene la primer lista que no tenga la segunda lista.'''
