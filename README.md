@@ -328,7 +328,7 @@ def obtener_multiplos_de_3(A):
 print(obtener_multiplos_de_3(A))  # Imprime la lista de múltiplos de 3 encontrados
 ````
 
------Bono-----
+11.-----Bono-----
 Desarrollar un algoritmo que determine si una matriz es mágica. Se dice que una matriz cuadrada es mágica si la suma de cada una de sus filas, de cada una de sus columnas y de cada diagonal es igual.
 ````python
 square= []
